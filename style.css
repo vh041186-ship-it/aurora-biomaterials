@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #FAFAFA;
+}
+img{
+    max-width: 750px;
+    width: 100%;
+    height: auto;
+}   
+header{
+    background:linear-gradient(#173831 , #010528);
+}
+.tela-inico{
+       display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+}
+.navegação{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: space-evenly;
+    
+}
+a{  
+    font-size: 1.4rem;
+    border: 2px solid #010528;
+    border-radius: 80px;
+    background-color: #173831;
+    padding: 0.6rem;
+    text-decoration: none;
+    color: #DCDCDC;
+    position: relative;
+    bottom: 7rem;
+    margin: 6px;
+}
+#Valores{
+    display: flex;
+    flex-direction: row;
+    background-color: #FAFAFA;
+    justify-content: center;
+    gap: 10px;
+}
+.val_pro{
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+.titulo_val{ 
+    text-align: center;
+    padding: 1.5rem;
+}
+.Visao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #FAFAFA;
+    font-size: 1.5rem;
+}
+.Visao_{
+    padding: 2rem;
+    margin: 1rem;
+}
+.titulo_vis{
+     text-align: center;
+    padding: 1.5rem;
+}
+.Prin_op{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 1rem;
+    background-color: #FAFAFA;
+    color: #FAFAFA;
+    font-size: 1.3rem;
+    
+}
+.PSE{
+    padding: 3rem;
+    border: 2px solid #173831;
+    border-radius: 80px;
+    margin: 1rem;
+    background-color: #173831;
+}
+.titulo_pse{
+        margin-bottom: 1rem;
+        text-align: center;
+}
+#Estrutura{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    font-size: 1.5rem;
+    padding: ;
+    padding: 2rem;
+    background-color: #FAFAFA;
+}
+.titulo_es{
+    padding: 1rem;
+    text-align: center;
+    background-color: #FAFAFA;
+}
+.infra_distrib{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    padding: 2rem;
+    background-color: #FAFAFA;
+}
+.infra_oper, .distribuição_G{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.CRR{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2.5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    background:linear-gradient(#173831 , #235347);
+    color: white;
+    border: 10px solid white;
+    border-radius: 40px;
+}
+.CRR ul{
+    padding: 1.5rem;
+}
+.estrutura_f{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-color: #FAFAFA;
+}
+.estrutura_org{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+    background-color: #FAFAFA;
+}
+.titulo_comp-inf{
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: #FAFAFA;
+}
+.infra_FTL{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    padding: 2rem;
+     background-color: #FAFAFA;
+     gap: 12px;
+}
+.card_FTL{
+    padding: 3rem;
+    font-size: 1.3rem;
+    border: 2px solid #235347;
+    border-radius: 60px;
+    margin: 1rem;
+     background:linear-gradient(#173831 , #235347);
+     color: #FAFAFA;
+}
+.titulo_FTL{
+    text-align: center;
+    padding: 1rem;
+}
+.sobre_produto{
+    padding: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.AuroraFlex_p{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    font-size: 1.5rem;
+    padding: 3.5rem;
+    border: 3px solid #010528;
+    border-radius: 70px;
+    margin: 1rem;
+    background: linear-gradient(#051F20 , #235347);
+    color: #FAFAFA;
+    max-width: 1100px;
+    width: 100%;
+}
+.au_flex{
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.titulo_Auflex{
+    text-align: center;
+    padding: 1rem;
+}
+.AuroraRigid_P{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    font-size: 1.5rem;
+    padding: 3.5rem;
+    border: 3px solid #010528;
+    border-radius: 70px;
+    margin: 1rem;
+    margin-top: 3rem;
+    background: linear-gradient(#051F20 , #235347);
+    color: #FAFAFA;
+    max-width: 1100px;
+    width: 100%;
+}
+.au_rigid{
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.titulo_AuRigid{
+    text-align: center;
+    padding: 1rem;
+}
+.AuroraFiber_P{
+        display: flex;
+    flex-direction: column;
+    justify-self: center;
+    font-size: 1.5rem;
+    padding: 3.5rem;
+    border: 3px solid #010528;
+    border-radius: 70px;
+    margin: 1rem;
+    margin-top: 3rem;
+    background: linear-gradient(#051F20 , #235347);
+    color: #FAFAFA;
+    max-width: 1100px;
+    width: 100%;
+}
+.au_fiber{
+     max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.titulo_AuFibe{
+     text-align: center;
+    padding: 1rem;
+}
+.Posicionamento_prod{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+#Cultura{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+    margin: 3rem;
+    margin-left: 6rem;
+    font-size: 1.5rem;
+    gap: 30px;
+}
+.Mentalidade_indust{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+.titulo_ment-in{
+    text-align: center;
+    padding: 1rem;
+}
+.proposito{
+     display: flex;
+    flex-direction: row;
+    justify-self: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+.titulo_proposito{
+    text-align: center;
+    padding: 1rem;
+}
+.Perfil_Rituais{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    padding: 2rem;
+    gap: 20px;
+}
+.titulo_rituais{
+    text-align: center;
+}
+.Contatos{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding: 3rem;
+        font-size: 1.5rem;
+        border: 3px solid #010528;
+        border-radius: 80px;
+        background: linear-gradient(#011C14, #00A86B);
+        color: #FAFAFA;
+        margin: 2rem;
+}
+footer{
+    text-align: center;
+    font-size: 1.1rem;
+    background: linear-gradient(#173831 , #010528);
+    color: #FAFAFA;
+}
