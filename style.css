@@ -1,324 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap');
+
+/* ========================================
+   RESET
+======================================== */
+
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
 }
+
 html{
-    scroll-behavior: smooth;
+
 }
+
 body{
-    background-color: #FAFAFA;
+
 }
+
+
+/* ========================================
+   VARIÁVEIS
+======================================== */
+
+:root{
+
+    /* CORES */
+
+    --bg-primary:;
+    --bg-secondary:;
+
+    --card-bg:;
+
+    --text-primary:;
+    --text-secondary:;
+
+    --accent-color:;
+
+    --border-color:;
+
+    /* TIPOGRAFIA */
+
+    --title-font:;
+    --text-font:;
+
+    /* ESPAÇAMENTOS */
+
+    --section-gap:;
+    --card-padding:;
+
+    /* BORDER RADIUS */
+
+    --radius-sm:;
+    --radius-md:;
+    --radius-lg:;
+
+    /* SOMBRAS */
+
+    --shadow-primary:;
+}
+
+
+/* ========================================
+   TIPOGRAFIA GLOBAL
+======================================== */
+
+h1, h2, h3, h4{
+
+}
+
+p{
+
+}
+
+a{
+
+}
+
+ul{
+
+}
+
+li{
+
+}
+
+
+/* ========================================
+   IMAGENS
+======================================== */
+
 img{
-    max-width: 750px;
-    width: 100%;
-    height: auto;
-}   
-header{
-    background:linear-gradient(#173831 , #010528);
+
 }
-.tela-inico{
-       display: flex;
-    flex-direction: column;
-    justify-self: center;
-    text-align: center;
+
+figure{
+
 }
-.navegação{
-    display: flex;
-    flex-direction: row;
-    justify-self: center;
-    justify-content: space-evenly;
-    
+
+
+/* ========================================
+   LAYOUT GLOBAL
+======================================== */
+
+.container{
+
 }
-a{  
-    font-size: 1.4rem;
-    border: 2px solid #010528;
-    border-radius: 80px;
-    background-color: #173831;
-    padding: 0.6rem;
-    text-decoration: none;
-    color: #DCDCDC;
-    position: relative;
-    bottom: 7rem;
-    margin: 6px;
+
+.section{
+
 }
-#Valores{
-    display: flex;
-    flex-direction: row;
-    background-color: #FAFAFA;
-    justify-content: center;
-    gap: 10px;
+
+
+/* ========================================
+   HEADER
+======================================== */
+
+.header{
+
 }
-.val_pro{
-    padding: 2rem;
-    font-size: 1.5rem;
+
+
+/* ========================================
+   LOGO
+======================================== */
+
+.logo{
+
 }
-.titulo_val{ 
-    text-align: center;
-    padding: 1.5rem;
+
+.logo img{
+
 }
-.Visao{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: #FAFAFA;
-    font-size: 1.5rem;
+
+
+/* ========================================
+   NAVBAR
+======================================== */
+
+.sidebar{
+
 }
-.Visao_{
-    padding: 2rem;
-    margin: 1rem;
+
+.sidebar ul{
+
 }
-.titulo_vis{
-     text-align: center;
-    padding: 1.5rem;
+
+.sidebar li{
+
 }
-.Prin_op{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 10px;
-    padding: 1rem;
-    background-color: #FAFAFA;
-    color: #FAFAFA;
-    font-size: 1.3rem;
-    
+
+.sidebar a{
+
 }
-.PSE{
-    padding: 3rem;
-    border: 2px solid #173831;
-    border-radius: 80px;
-    margin: 1rem;
-    background-color: #173831;
+
+.sidebar a:hover{
+
 }
-.titulo_pse{
-        margin-bottom: 1rem;
-        text-align: center;
+
+.sidebar a::after{
+
 }
-#Estrutura{
-    display: flex;
-    flex-direction: row;
-    justify-self: center;
-    font-size: 1.5rem;
-    padding: ;
-    padding: 2rem;
-    background-color: #FAFAFA;
+
+
+/* ========================================
+   MENU MOBILE
+======================================== */
+
+#menu-toggle{
+
 }
-.titulo_es{
-    padding: 1rem;
-    text-align: center;
-    background-color: #FAFAFA;
+
+.menu-btn{
+
 }
-.infra_distrib{
-    display: flex;
-    flex-direction: row;
-    justify-self: center;
-    padding: 2rem;
-    background-color: #FAFAFA;
+
+.menu-btn span{
+
 }
-.infra_oper, .distribuição_G{
-    text-align: center;
-    font-size: 2.5rem;
+
+
+/* ========================================
+   HERO SECTION
+======================================== */
+
+.hero{
+
 }
-.CRR{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 2.5rem;
-    margin: 1rem;
-    font-size: 1.5rem;
-    background:linear-gradient(#173831 , #235347);
-    color: white;
-    border: 10px solid white;
-    border-radius: 40px;
+
+.hero-content{
+
 }
-.CRR ul{
-    padding: 1.5rem;
+
+.hero-content h1{
+
 }
-.estrutura_f{
-        display: flex;
-        flex-direction: row;
-        justify-self: center;
-        padding: 1rem;
-        font-size: 1.5rem;
-        background-color: #FAFAFA;
+
+.hero-content p{
+
 }
-.estrutura_org{
-    display: flex;
-    flex-direction: row;
-    justify-self: center;
-    font-size: 1.5rem;
-    padding: 2rem;
-    background-color: #FAFAFA;
+
+
+/* ========================================
+   SECTION HEADER
+======================================== */
+
+.section-header{
+
 }
-.titulo_comp-inf{
-    text-align: center;
-    font-size: 2rem;
-    padding: 2rem;
-    background-color: #FAFAFA;
+
+.section-header h2{
+
 }
-.infra_FTL{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: 1.5rem;
-    padding: 2rem;
-     background-color: #FAFAFA;
-     gap: 12px;
+
+.section-header h2::after{
+
 }
-.card_FTL{
-    padding: 3rem;
-    font-size: 1.3rem;
-    border: 2px solid #235347;
-    border-radius: 60px;
-    margin: 1rem;
-     background:linear-gradient(#173831 , #235347);
-     color: #FAFAFA;
+
+
+/* ========================================
+   GRID LAYOUTS
+======================================== */
+
+.grid-2{
+
 }
-.titulo_FTL{
-    text-align: center;
-    padding: 1rem;
+
+.grid-3{
+
 }
-.sobre_produto{
-    padding: 2rem;
-    font-size: 1.5rem;
-    text-align: center;
+
+
+/* ========================================
+   CARD PADRÃO
+======================================== */
+
+.card{
+
 }
-.AuroraFlex_p{
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    font-size: 1.5rem;
-    padding: 3.5rem;
-    border: 3px solid #010528;
-    border-radius: 70px;
-    margin: 1rem;
-    background: linear-gradient(#051F20 , #235347);
-    color: #FAFAFA;
-    max-width: 1100px;
-    width: 100%;
+
+.card:hover{
+
 }
-.au_flex{
-    max-width: 300px;
-    width: 100%;
-    margin: 0 auto;
+
+.card::before{
+
 }
-.titulo_Auflex{
-    text-align: center;
-    padding: 1rem;
+
+.card h3{
+
 }
-.AuroraRigid_P{
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    font-size: 1.5rem;
-    padding: 3.5rem;
-    border: 3px solid #010528;
-    border-radius: 70px;
-    margin: 1rem;
-    margin-top: 3rem;
-    background: linear-gradient(#051F20 , #235347);
-    color: #FAFAFA;
-    max-width: 1100px;
-    width: 100%;
+
+.card h4{
+
 }
-.au_rigid{
-    max-width: 300px;
-    width: 100%;
-    margin: 0 auto;
+
+.card p{
+
 }
-.titulo_AuRigid{
-    text-align: center;
-    padding: 1rem;
+
+.card ul{
+
 }
-.AuroraFiber_P{
-        display: flex;
-    flex-direction: column;
-    justify-self: center;
-    font-size: 1.5rem;
-    padding: 3.5rem;
-    border: 3px solid #010528;
-    border-radius: 70px;
-    margin: 1rem;
-    margin-top: 3rem;
-    background: linear-gradient(#051F20 , #235347);
-    color: #FAFAFA;
-    max-width: 1100px;
-    width: 100%;
+
+.card li{
+
 }
-.au_fiber{
-     max-width: 400px;
-    width: 100%;
-    margin: 0 auto;
+
+
+/* ========================================
+   PRODUTOS
+======================================== */
+
+.products{
+
 }
-.titulo_AuFibe{
-     text-align: center;
-    padding: 1rem;
+
+
+/* ========================================
+   PRODUCT CARD
+======================================== */
+
+.product-card{
+
 }
-.Posicionamento_prod{
-    display: flex;
-    flex-direction: row;
-    justify-self: center;
-    font-size: 1.5rem;
-    padding: 1.5rem;
+
+.product-card:hover{
+
 }
-#Cultura{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 2rem;
-    margin: 3rem;
-    margin-left: 6rem;
-    font-size: 1.5rem;
-    gap: 30px;
+
+.product-card figure{
+
 }
-.Mentalidade_indust{
-    display: flex;
-    flex-direction: row;
-    justify-self: center;
-    font-size: 1.5rem;
-    padding: 2rem;
+
+.product-card img{
+
 }
-.titulo_ment-in{
-    text-align: center;
-    padding: 1rem;
+
+.product-content{
+
 }
-.proposito{
-     display: flex;
-    flex-direction: row;
-    justify-self: center;
-    font-size: 1.5rem;
-    padding: 2rem;
+
+.product-content h3{
+
 }
-.titulo_proposito{
-    text-align: center;
-    padding: 1rem;
+
+.product-content p{
+
 }
-.Perfil_Rituais{
-     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: 1.5rem;
-    padding: 2rem;
-    gap: 20px;
+
+
+/* ========================================
+   CONTATO
+======================================== */
+
+.contact-card{
+
 }
-.titulo_rituais{
-    text-align: center;
+
+.contact-card address{
+
 }
-.Contatos{
-        display: flex;
-        flex-direction: row;
-        justify-self: center;
-        padding: 3rem;
-        font-size: 1.5rem;
-        border: 3px solid #010528;
-        border-radius: 80px;
-        background: linear-gradient(#011C14, #00A86B);
-        color: #FAFAFA;
-        margin: 2rem;
+
+
+/* ========================================
+   FOOTER
+======================================== */
+
+.footer{
+
 }
-footer{
-    text-align: center;
-    font-size: 1.1rem;
-    background: linear-gradient(#173831 , #010528);
-    color: #FAFAFA;
+
+.footer p{
+
+}
+
+
+/* ========================================
+   EFEITOS / ANIMAÇÕES
+======================================== */
+
+@keyframes fadeIn{
+
+}
+
+@keyframes float{
+
+}
+
+@keyframes glow{
+
+}
+
+
+/* ========================================
+   RESPONSIVIDADE
+======================================== */
+
+/* ---------- TABLETS ---------- */
+
+@media(max-width: 992px){
+
+    .grid-2{
+
+    }
+
+    .grid-3{
+
+    }
+
+    .products{
+
+    }
+
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media(max-width: 768px){
+
+    /* HEADER */
+
+    .header{
+
+    }
+
+    /* NAVBAR */
+
+    .sidebar{
+
+    }
+
+    .sidebar ul{
+
+    }
+
+    .sidebar li{
+
+    }
+
+    .sidebar a{
+
+    }
+
+    /* MENU MOBILE */
+
+    .menu-btn{
+
+    }
+
+    #menu-toggle:checked ~ .sidebar{
+
+    }
+
+    #menu-toggle:checked + .menu-btn span:nth-child(1){
+
+    }
+
+    #menu-toggle:checked + .menu-btn span:nth-child(2){
+
+    }
+
+    #menu-toggle:checked + .menu-btn span:nth-child(3){
+
+    }
+
+    /* HERO */
+
+    .hero{
+
+    }
+
+    .hero-content{
+
+    }
+
+    .hero-content h1{
+
+    }
+
+    .hero-content p{
+
+    }
+
+    /* GRID */
+
+    .grid-2{
+
+    }
+
+    .grid-3{
+
+    }
+
+    .products{
+
+    }
+
+    /* CARDS */
+
+    .card{
+
+    }
+
+    .product-card{
+
+    }
+
+}
+
+
+/* ---------- MOBILE PEQUENO ---------- */
+
+@media(max-width: 480px){
+
+    .container{
+
+    }
+
+    .section-header h2{
+
+    }
+
+    .hero-content h1{
+
+    }
+
+    .hero-content p{
+
+    }
+
 }
