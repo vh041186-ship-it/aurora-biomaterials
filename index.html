@@ -2,408 +2,313 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Aurora Biomaterials</title>
+  <title>Aurora Biomaterials</title>
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
 
-    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-    <!-- HEADER -->
+  <!-- OVERLAY MOBILE -->
+  <div class="overlay"></div>
 
-    <header class="header">
+  <!-- HEADER -->
+  <header class="header">
 
-        <div class="logo">
-            <img src="imagens/logo.png" alt="Logo Aurora Biomaterials">
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="imagens/logo.png" alt="Aurora Biomaterials">
+      </a>
+
+      <!-- MENU DESKTOP -->
+      <nav class="nav-desktop">
+
+        <a href="#valores">Valores</a>
+        <a href="#estrutura">Estrutura</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#cultura">Cultura</a>
+        <a href="#contato">Contato</a>
+
+      </nav>
+
+      <!-- BOTÃO MOBILE -->
+      <button class="menu-btn" id="menuBtn">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+      </button>
+
+    </div>
+
+  </header>
+
+  <!-- SIDEBAR MOBILE -->
+  <aside class="mobile-sidebar" id="sidebar">
+
+    <nav class="mobile-nav">
+
+      <a href="#valores">Valores</a>
+      <a href="#estrutura">Estrutura</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#cultura">Cultura</a>
+      <a href="#contato">Contato</a>
+
+    </nav>
+
+  </aside>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+
+      <div class="container hero-container">
+
+        <div class="hero-text">
+
+          <span class="hero-badge">
+            Tecnologia sustentável
+          </span>
+
+          <h1>
+            Inovação que transforma o futuro.
+          </h1>
+
+          <p>
+            Desenvolvemos biomateriais modernos e sustentáveis que unem
+            tecnologia, eficiência industrial e responsabilidade ambiental.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a href="#produtos" class="btn-primary">
+              Ver produtos
+            </a>
+
+            <a href="#contato" class="btn-secondary">
+              Fale conosco
+            </a>
+
+          </div>
+
         </div>
 
-        <nav class="sidebar">
+        <div class="hero-image">
 
-            <ul>
+          <img src="imagens/logo.png" alt="Aurora Biomaterials">
 
-                <li>
-                    <a href="#valores">Valores</a>
-                </li>
+        </div>
 
-                <li>
-                    <a href="#estrutura">Estrutura</a>
-                </li>
+      </div>
 
-                <li>
-                    <a href="#produtos">Produtos</a>
-                </li>
+    </section>
 
-                <li>
-                    <a href="#cultura">Cultura</a>
-                </li>
+    <!-- VALORES -->
+    <section class="section" id="valores">
 
-                <li>
-                    <a href="#contato">Contato</a>
-                </li>
+      <div class="container">
 
-            </ul>
+        <div class="section-title">
 
-        </nav>
+          <span>VALORES</span>
 
-    </header>
+          <h2>
+            Sustentabilidade com performance industrial
+          </h2>
 
-    <!-- MAIN -->
+        </div>
 
-    <main class="container">
+        <div class="grid grid-2">
 
-        <!-- HERO -->
+          <article class="card">
 
-        <section class="hero">
+            <h3>Missão</h3>
 
-            <article class="hero-content">
+            <p>
+              Desenvolver biomateriais de alta performance capazes de substituir
+              plásticos convencionais em larga escala.
+            </p>
 
-                <h1>
-                    Aurora Biomaterials
-                </h1>
+          </article>
 
-                <p>
-                    Desenvolvimento e escalabilidade de biomateriais sustentáveis de alta performance.
-                </p>
+          <article class="card">
 
-            </article>
+            <h3>Aplicação prática</h3>
 
-        </section>
+            <p>
+              Pesquisa contínua, qualidade industrial e foco em eficiência real
+              para aplicações modernas.
+            </p>
 
-        <!-- VALORES -->
+          </article>
 
-        <section id="valores" class="section">
+        </div>
 
-            <header class="section-header">
-                <h2>Valores e Propósito</h2>
-            </header>
+      </div>
 
-            <div class="grid-2">
+    </section>
 
-                <article class="card">
+    <!-- ESTRUTURA -->
+    <section class="section dark-section" id="estrutura">
 
-                    <h3>Missão</h3>
+      <div class="container">
 
-                    <p>
-                        Desenvolver e escalar biomateriais de alta performance que substituam plásticos convencionais.
-                    </p>
+        <div class="section-title light">
 
-                    <h4>Objetivos</h4>
+          <span>ESTRUTURA</span>
 
-                    <ul>
-                        <li>Foco em pesquisa</li>
-                        <li>Escala industrial</li>
-                        <li>Alta performance</li>
-                    </ul>
+          <h2>
+            Operação estratégica em todo o Brasil
+          </h2>
 
-                </article>
+        </div>
 
-                <article class="card">
+        <div class="grid grid-3">
 
-                    <h3>Aplicação prática</h3>
+          <article class="card dark">
 
-                    <ul>
-                        <li>P&D contínuo</li>
-                        <li>Qualidade industrial</li>
-                        <li>Produtos confiáveis</li>
-                    </ul>
+            <h3>Curitiba</h3>
 
-                    <h4>O que a empresa evita</h4>
+            <p>Centro de pesquisa e inovação.</p>
 
-                    <p>
-                        Produtos sustentáveis sem eficiência técnica.
-                    </p>
+          </article>
 
-                </article>
+          <article class="card dark">
 
-            </div>
+            <h3>Ribeirão Preto</h3>
 
-        </section>
+            <p>Processamento de biomassa.</p>
 
-        <!-- VISÃO -->
+          </article>
 
-        <section class="section">
+          <article class="card dark">
 
-            <header class="section-header">
-                <h2>Visão</h2>
-            </header>
+            <h3>Recife</h3>
 
-            <div class="grid-3">
+            <p>Distribuição e exportação.</p>
 
-                <article class="card">
+          </article>
 
-                    <h3>Curto prazo</h3>
+        </div>
 
-                    <ul>
-                        <li>Liderança nacional</li>
-                        <li>Consolidação industrial</li>
-                    </ul>
+      </div>
 
-                </article>
+    </section>
 
-                <article class="card">
+    <!-- PRODUTOS -->
+    <section class="section" id="produtos">
 
-                    <h3>Médio prazo</h3>
+      <div class="container">
 
-                    <ul>
-                        <li>Expansão América Latina</li>
-                        <li>Aumento de exportação</li>
-                    </ul>
+        <div class="section-title">
 
-                </article>
+          <span>PRODUTOS</span>
 
-                <article class="card">
+          <h2>
+            Biomateriais desenvolvidos para a indústria moderna
+          </h2>
 
-                    <h3>Longo prazo</h3>
+        </div>
 
-                    <ul>
-                        <li>Competição global</li>
-                        <li>Influência ambiental</li>
-                    </ul>
+        <div class="products-grid">
 
-                </article>
+          <article class="product-card">
+
+            <img src="imagens/AuroraFlex.png" alt="AuroraFlex">
+
+            <div class="product-content">
+
+              <h3>AuroraFlex</h3>
+
+              <p>
+                Material flexível para substituição de plástico convencional.
+              </p>
 
             </div>
 
-        </section>
+          </article>
 
-        <!-- PRINCÍPIOS -->
+          <article class="product-card">
 
-        <section class="section">
+            <img src="imagens/AuroraRigid.png" alt="AuroraRigid">
 
-            <header class="section-header">
-                <h2>Princípios Operacionais</h2>
-            </header>
+            <div class="product-content">
 
-            <div class="grid-3">
+              <h3>AuroraRigid</h3>
 
-                <article class="card">
-
-                    <h3>Sustentabilidade</h3>
-
-                    <p>
-                        Comunicação transparente e validada.
-                    </p>
-
-                </article>
-
-                <article class="card">
-
-                    <h3>Segurança</h3>
-
-                    <p>
-                        Protocolos industriais rigorosos.
-                    </p>
-
-                </article>
-
-                <article class="card">
-
-                    <h3>Ética ambiental</h3>
-
-                    <p>
-                        Responsabilidade direta sobre impactos ambientais.
-                    </p>
-
-                </article>
+              <p>
+                Solução rígida para aplicações industriais.
+              </p>
 
             </div>
 
-        </section>
+          </article>
 
-        <!-- ESTRUTURA -->
+          <article class="product-card">
 
-        <section id="estrutura" class="section">
+            <img src="imagens/aurorafiber.png" alt="AuroraFiber">
 
-            <header class="section-header">
-                <h2>Estrutura Operacional</h2>
-            </header>
+            <div class="product-content">
 
-            <div class="grid-3">
+              <h3>AuroraFiber</h3>
 
-                <article class="card">
-
-                    <h3>Curitiba (PR)</h3>
-
-                    <p>
-                        Produção e pesquisa avançada.
-                    </p>
-
-                </article>
-
-                <article class="card">
-
-                    <h3>Ribeirão Preto (SP)</h3>
-
-                    <p>
-                        Processamento de biomassa.
-                    </p>
-
-                </article>
-
-                <article class="card">
-
-                    <h3>Recife (PE)</h3>
-
-                    <p>
-                        Distribuição e exportação.
-                    </p>
-
-                </article>
+              <p>
+                Estrutura reforçada com fibras naturais.
+              </p>
 
             </div>
 
-        </section>
+          </article>
 
-        <!-- PRODUTOS -->
+        </div>
 
-        <section id="produtos" class="section">
+      </div>
 
-            <header class="section-header">
-                <h2>Produtos</h2>
-            </header>
+    </section>
 
-            <div class="products">
+  </main>
 
-                <article class="product-card">
+  <!-- FOOTER -->
+  <footer class="footer" id="contato">
 
-                    <figure>
+    <div class="container footer-container">
 
-                        <img src="imagens/AuroraFlex.png" alt="Produto AuroraFlex">
+      <div>
 
-                    </figure>
-
-                    <div class="product-content">
-
-                        <h3>AuroraFlex</h3>
-
-                        <p>
-                            Biomaterial flexível para substituição de plástico convencional.
-                        </p>
-
-                    </div>
-
-                </article>
-
-                <article class="product-card">
-
-                    <figure>
-
-                        <img src="imagens/AuroraRigid.png" alt="Produto AuroraRigid">
-
-                    </figure>
-
-                    <div class="product-content">
-
-                        <h3>AuroraRigid</h3>
-
-                        <p>
-                            Solução rígida para aplicações industriais.
-                        </p>
-
-                    </div>
-
-                </article>
-
-                <article class="product-card">
-
-                    <figure>
-
-                        <img src="imagens/aurorafiber.png" alt="Produto AuroraFiber">
-
-                    </figure>
-
-                    <div class="product-content">
-
-                        <h3>AuroraFiber</h3>
-
-                        <p>
-                            Material estrutural reforçado com fibras naturais.
-                        </p>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-        </section>
-
-        <!-- CULTURA -->
-
-        <section id="cultura" class="section">
-
-            <header class="section-header">
-                <h2>Cultura</h2>
-            </header>
-
-            <div class="grid-2">
-
-                <article class="card">
-
-                    <h3>Pensamento científico</h3>
-
-                    <p>
-                        Decisões guiadas por testes, dados e validação técnica.
-                    </p>
-
-                </article>
-
-                <article class="card">
-
-                    <h3>Mentalidade industrial</h3>
-
-                    <p>
-                        Eficiência operacional, escala e padronização.
-                    </p>
-
-                </article>
-
-            </div>
-
-        </section>
-
-        <!-- CONTATO -->
-
-        <section id="contato" class="section">
-
-            <header class="section-header">
-                <h2>Contato</h2>
-            </header>
-
-            <article class="contact-card">
-
-                <address>
-
-                    <p>
-                        contato@aurorabio.com.br
-                    </p>
-
-                    <p>
-                        +55 (41) 3320-4580
-                    </p>
-
-                </address>
-
-            </article>
-
-        </section>
-
-    </main>
-
-    <!-- FOOTER -->
-
-    <footer class="footer">
+        <h3>Aurora Biomaterials</h3>
 
         <p>
-            © Aurora Biomaterials — Todos os direitos reservados.
+          Tecnologia sustentável para uma nova geração industrial.
         </p>
 
-    </footer>
+      </div>
+
+      <div>
+
+        <p>contato@aurorabio.com.br</p>
+
+        <p>+55 (41) 3320-4580</p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
 
 </body>
 
