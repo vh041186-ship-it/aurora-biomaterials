@@ -50,6 +50,8 @@ Hospedagem recomendada:
 - GitHub Pages
 
 ## 🔧 Como rodar o projeto
+vercel
+aurora-biomaterials.vercel.app
 
 ```bash
 git clone https://github.com/vh041186-ship-it/aurora-biomaterials.git
@@ -89,4 +91,4 @@ Este projeto está sob a licença MIT.
 
 Victor
 
-GitHub: https://github.com/vh041186-ship-it<img width="1888" height="905" alt="Captura de tela 2026-05-24 231437" src="https://github.com/user-attachments/assets/3383149f-7405-423e-8050-83302712595b" />
+GitHub: https://github.com/vh041186-ship-it
